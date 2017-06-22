@@ -1,0 +1,236 @@
+body *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 10pt;
+    color: white;
+}
+p2{
+    color: black;
+}
+
+#container{
+    width: 970px;
+    height: 800px;
+}
+
+.header{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #265175;
+}
+#logo{
+    width: 35%;
+    margin: 15px 280px 0 25px;
+    display: inline-block;
+}
+.searchArea{
+    width: 300px;
+    height: 90px;
+    display: inline-block;
+    margin-top: 15px;
+    vertical-align: top;
+}
+.searchArea p{
+    text-align: right;
+    padding:0 40px 4px 0;
+}
+a{
+    color: yellow;
+}
+.inputBox{
+    width: 100%;
+    height: 60px;
+    background-color: #444444;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000
+    
+}
+#inputbar{
+    color: lightslategray;
+    width: 170px;
+    height: 30px;
+    margin: 12px 0 0 43px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(linear,left top, left bottom, #939393, #dcdcdc);
+    text-align: center;
+}
+.button {
+    color: white;
+    width: 40px;
+    height: 30px;
+    background-color: #265175;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline-block;
+  }
+.navbar{
+    width: 85%;
+    height: 50px;
+    background-color: #5190c4;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 2px #000;
+    margin: 20px 100px;
+    display: inline-block;
+}
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15pt;
+    margin: 12px 19px;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+.mainContent{
+    color: white;
+    width: 100%;
+    display: inline-block;
+    background-color: #265175;
+    padding: 0 0 30px 0;
+    
+}
+.sidebar{
+    width: 25%;
+    vertical-align: top;
+    margin-left: 70px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.sidebar li{
+    font-size: 12pt;
+    font-weight: normal;
+    margin: 12px 19px;
+    text-align: center;
+    color: yellow;
+    list-style: none;
+}
+.sidebar li a{
+    color: white;  
+}
+.mainCopy{
+    width: 60%;
+    vertical-align: top;
+    display: inline-block;
+}
+.topCopy{
+    width: 100%;
+    color: white;
+    text-align: center;   
+}
+.yellowtext{
+    width: 100%;
+    color: yellow;
+    text-align: center;
+    font-size: 18pt;
+    
+}
+.yellowtext{
+    font-style: italic;
+    margin: 4px;
+}
+.yellowtext li{
+    list-style-type: none;
+    padding: 8px;
+}
+.notYellow{
+    color:white;
+    font-style: normal;
+}
+
+
+.midContent{
+    width: 100%;
+    background-color: white;
+    border-top: 3px solid darkblue;
+    display: inline-block;
+}
+.leftCol{
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 20px 40px 20px 60px;
+    border-top: 4px solid #5190c4;
+    padding-top: 5px;
+    display: inline-block;
+    padding-right:80px;
+}
+.leftCol ul{
+    list-style: square;
+    text-align: left;
+    padding-left:40px;
+    font-size: 10pt;
+    color: #5190c4;
+}
+.leftCol p{
+    color: black;
+}
+.rightCol{
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 20px 60px;
+    border-top: 4px solid #5190c4;
+    padding-top: 5px;
+    display: inline-block;
+    padding-right: 80px;
+}
+.rightCol ul{
+    list-style: square;
+    text-align: left;
+    padding-left:40px;
+    font-size: 10pt;
+    color: #5190c4;
+}
+.rightCol p{
+    color: black;
+}
+.rightCol p a{
+    color: #5190c4;
+    text-decoration: none;
+}
+.move1{
+    padding-left: 10px;
+   display: block;
+    text-align: center;
+    list-style: none;
+    width: 230px;
+}
+.footerArea{
+    color: white;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#265175, #5190c4);
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+}
+.footerArea li{
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    color: lightblue;
+    padding: 0 20px;
+    margin-top: 50px;
+    list-style: none;
+}
+.footerArea p{
+    font-size: 8px;
+    display: inline-block;
+    text-align: center;
+    color: lightblue;
+    margin-top: 15px;
+}
+
